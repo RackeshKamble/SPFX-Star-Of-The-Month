@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-start-ofthe-month-properties-pane-client-side-solution",
+    "id": "37add44f-2fcd-41dc-a351-646eafe8eb7b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-start-ofthe-month-properties-pane.sppkg"
+  }
+}

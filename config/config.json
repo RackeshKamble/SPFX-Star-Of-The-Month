@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-start-ofthe-month-properties-pane-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxStartOftheMonthPropertiesPane/SpfxStartOftheMonthPropertiesPaneWebPart.js",
+          "manifest": "./src/webparts/spfxStartOftheMonthPropertiesPane/SpfxStartOftheMonthPropertiesPaneWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxStartOftheMonthPropertiesPaneWebPartStrings": "lib/webparts/spfxStartOftheMonthPropertiesPane/loc/{locale}.js"
+  }
+}
